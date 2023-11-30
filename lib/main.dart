@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:pkf_announcement_app/pages/homepage.dart';
+import 'package:pkf_announcement_app/pages/login.dart';
+import 'package:pkf_announcement_app/pages/login2.dart';
+import 'package:pkf_announcement_app/pages/registration.dart';
 
 import 'pages/splash_screen.dart';
 
@@ -21,7 +24,7 @@ class MyApp extends StatelessWidget {
           //  primaryColor: Colors.black,
           ),
      // home: const SplashScreen(),
-     home: const homeScreen(),
+     home: const LoginPage(),
     );
   }
 }
